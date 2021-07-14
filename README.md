@@ -13,7 +13,9 @@ make txt file and add your urls in that files example : email_file.txt
 
 ./email_extractor.sh emails_file.txt
 
-# output : Check extracted_mails.txt
+# output : 
+
+Check extracted_mails.txt
 
 thanks , for using mail-extractor.
 
