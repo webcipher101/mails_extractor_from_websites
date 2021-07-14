@@ -4,7 +4,7 @@
 # prerequisite :
 sudo apt-get install lynx
 
-![](demo.png)
+![](demo1.png)
 
 # usage : 
 chmod +x ./email_extractor.sh
