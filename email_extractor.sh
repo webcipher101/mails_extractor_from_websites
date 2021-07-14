@@ -31,10 +31,10 @@ grep -E -o "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+\b" url_text.txt >> m
 done
 fi
 
-sort mailids.txt | uniq >> extracted_mail_list.txt
+sort mailids.txt | uniq >> extracted_mails.txt
 rm mailids.txt url_text.txt
 sleep 5
-echo -e "\e[92m (+) Email ids extraction done. Check extracted_mail_list.txt file\e[0m"
+echo -e "\e[92m (+) Email ids extraction done. Check extracted_mails.txt file\e[0m"
 sleep 3
 exit 0
 
